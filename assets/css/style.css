@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: auto;
+}
+
+body {
+  width: 100%;
+  background-color: rgba(249, 249, 249, 1);
+  font-family: Roboto;
+  color: rgb(81, 81, 81);
+}
+
+header {
+  width: 100%;
+  height: 56px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-menu,
+.right-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search input {
+  width: 404px;
+  height: 40px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.search button {
+  width: 57px;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.35rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.right-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-menu img {
+  width: 34px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 84px 0 0 75px;
+}
+
+.wachting-video {
+  width: 952px;
+  height: 746px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.video-items {
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 1rem 0;
+}
+
+#video-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 42px;
+}
+
+#video-actions p,
+#views,
+.thumb-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.channel-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#infos {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.channel-infos span,
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: rgb(81, 81, 81);
+}
+
+.sign-up button {
+  width: 159px;
+  height: 40px;
+  background-color: rgba(204, 0, 0, 1);
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.channel-infos,
+.sign-up,
+.like,
+.deslike,
+.share,
+.download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#views, .about-container{
+  padding-top: 1rem;
+}
+
+#about-video {
+  display: inline-block;
+  width: 510px;
+  height: 64px;
+  text-align: left;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumb-videos {
+  display: flex;
+  flex-direction: row;
+  padding: 0 1rem 1rem;
+}
+
+.thumb-videos img {
+  margin: 0;
+  object-fit: contain;
+  object-position: top;
+}
+
+.descript-video {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 0 1rem;
+}
+
+.descript-video h2,
+.dio {
+  padding-bottom: 6px;
+}
+
+.descript-video p {
+  font-size: 12px;
+}
